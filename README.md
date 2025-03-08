@@ -3,7 +3,6 @@ Understanding the Dataset: I started by familiarizing myself with the Austin Bik
 
 Data Exploration and Queries:
 Query 1: Calculated peak usage times to identify hours with the highest activity. This query identifies the busiest hours for bikeshare usage, which is essential for resource allocation (e.g., increasing bike availability during peak hours) and operational planning
-![Image](https://github.com/user-attachments/assets/31ee58a1-5bcf-4d6a-8271-051262ee42b4)
 
 Query 2: Found the top busiest stations. Understanding which stations handle the highest trip volumes helps identify key locations and evaluate station performance.
 
