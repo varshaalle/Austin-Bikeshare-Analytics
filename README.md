@@ -1,10 +1,14 @@
 In my Austin Bikeshare analysis project, I followed a structured workflow to extract meaningful insights and create an interactive dashboard.
 Understanding the Dataset: I started by familiarizing myself with the Austin Bikeshare dataset (data dictionary) available on Kaggle. This dataset included details about bikeshare stations, trips, durations, and status of the stations, timestamps, busy areas. 
+
 Data Exploration and Queries:
 Query 1: Calculated peak usage times to identify hours with the highest activity. This query identifies the busiest hours for bikeshare usage, which is essential for resource allocation (e.g., increasing bike availability during peak hours) and operational planning
+
 Query 2: Found the top busiest stations. Understanding which stations handle the highest trip volumes helps identify key locations and evaluate station performance.
+
 Query 3: Analyzed total trips, average trip duration, and the operational status of each station. This provided key performance metrics per station to gauge usage and efficiency. This query provides a comprehensive overview of station performance, including trip volume, average trip duration, and operational status. It helps assess not just how busy a station is but also how efficiently it is used.
-The queries I wrote were tailored to extract meaningful insights from the dataset and align with the project goals of understanding bikeshare usage patterns, station performance, and overall system efficiency. Here's why each query was written and an explanation of what it accomplishes:
+The queries I wrote were tailored to extract meaningful insights from the dataset and align with the project goals of understanding bikeshare usage patterns, station performance, and overall system efficiency. 
+Here's why each query was written and an explanation of what it accomplishes:
 Query 1: Calculating Peak Usage Time
 SELECT 
     s.station_id,
